@@ -13,6 +13,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { ThemeProvider, themeInitScript } from "@/components/theme-provider";
 import { WhatsappFab } from "@/components/site/whatsapp-fab";
+import { ScrollToTopFab } from "@/components/site/scroll-to-top-fab";
 import { Toaster } from "@/components/ui/sonner";
 
 function NotFoundComponent() {
@@ -134,6 +135,7 @@ function RootComponent() {
         {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
         <Outlet />
         <WhatsappFab />
+        <ScrollToTopFab />
         <Toaster />
       </ThemeProvider>
     </QueryClientProvider>

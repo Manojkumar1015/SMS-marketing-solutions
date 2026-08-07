@@ -350,18 +350,6 @@ function CreativeServices() {
               ))}
             </Stagger>
 
-            <div className="mt-12 flex flex-col items-start gap-4 rounded-sm border border-border/70 bg-card/60 p-6 backdrop-blur sm:flex-row sm:items-center sm:justify-between">
-              <p className="min-w-0 text-sm leading-relaxed text-muted-foreground">
-                Tell us what you need designed — we&apos;ll reply on WhatsApp with scope and
-                pricing.
-              </p>
-              <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
-                <a href={waLink("Creative Services")} target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="size-4" />
-                  Get a Quote on WhatsApp
-                </a>
-              </Button>
-            </div>
           </div>
         </section>
 

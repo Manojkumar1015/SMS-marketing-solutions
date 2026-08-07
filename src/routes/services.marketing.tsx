@@ -349,25 +349,6 @@ function MarketingManagement() {
               ))}
             </Stagger>
 
-            <div className="mt-12 flex flex-col items-start gap-4 rounded-sm border border-border/70 bg-card/60 p-6 backdrop-blur sm:flex-row sm:items-center sm:justify-between">
-              <p className="min-w-0 text-sm leading-relaxed text-muted-foreground">
-                Tell us what you need managed — we&apos;ll reply on WhatsApp with scope and pricing.
-              </p>
-              <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
-                <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
-                  <a href={WHATSAPP_CHAT_LINK} target="_blank" rel="noopener noreferrer">
-                    <MessageCircle className="size-4" />
-                    Get a Quote on WhatsApp
-                  </a>
-                </Button>
-                <Button variant="glass" size="xl" asChild className="w-full sm:w-auto">
-                  <a href={QUOTES_LINK} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="size-4" />
-                    Instant Quote
-                  </a>
-                </Button>
-              </div>
-            </div>
           </div>
         </section>
 
