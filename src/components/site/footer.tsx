@@ -49,7 +49,7 @@ export function Footer() {
         </nav>
 
         <div className="flex min-w-0 flex-col gap-4 lg:items-end">
-          <FollowUs className="!items-start lg:!items-end [&>h3]:hidden [&>div]:justify-start lg:[&>div]:justify-end" />
+          <FollowUs className="!items-start lg:!items-end [&>div]:justify-start lg:[&>div]:justify-end" />
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
             © {new Date().getFullYear()} Smart Marketing System
           </p>

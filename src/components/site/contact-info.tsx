@@ -131,8 +131,8 @@ export function ContactCards({ className = "flex flex-col gap-4" }: { className?
 
 export function FollowUs({ className = "" }: { className?: string }) {
   return (
-    <div className={`flex flex-col items-center gap-5 ${className}`}>
-      <h3 className="text-lg font-bold">Follow Us</h3>
+    <div className={`flex flex-col items-center gap-3 ${className}`}>
+      <h3 className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">Follow Us</h3>
       <div className="flex flex-wrap justify-center gap-3">
         {socialLinks.map((s) => {
           const Icon = icons[s.key as keyof typeof icons];
